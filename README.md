@@ -139,7 +139,7 @@ class CarRentalSystem {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("===== Car Rental System =====");
+            System.out.println("Sidram's Garage");
             System.out.println("1. Rent a Car");
             System.out.println("2. Return a Car");
             System.out.println("3. Exit");
@@ -224,6 +224,7 @@ class CarRentalSystem {
                     if (customer != null) {
                         returnCar(carToReturn);
                         System.out.println("Car returned successfully by " + customer.getName());
+                        System.out.println("thank you vist again Sidram's Garage");
                     } else {
                         System.out.println("Car was not rented or rental information is missing.");
                     }
